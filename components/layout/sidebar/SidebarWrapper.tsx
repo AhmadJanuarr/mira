@@ -5,7 +5,6 @@ import { useSidebar } from "@/hooks/useSidebar";
 
 export const SidebarWrapper = () => {
   const { isOpen, toggleSidebar } = useSidebar();
-  console.log(isOpen);
   return (
     <aside
       className={`relative min-h-screen flex flex-col border-r-5 border-bg-dark justify-between bg-secondary-background shadow-sm transition-all duration-400 ease-in-out  ${
